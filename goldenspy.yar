@@ -11,7 +11,7 @@ rule goldenspy
 		$str05 = "svmm" ascii
 		$str06 = "PROTOCOL_" ascii
 		$str07 = "softList" ascii
-		$str08 = "excuteExe" asci
+		$str08 = "excuteExe" ascii
 
 	condition:
 	 	 (uint16(0) == 0x5A4D) and 5 of ($str*)
